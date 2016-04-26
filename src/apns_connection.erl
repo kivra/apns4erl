@@ -371,7 +371,7 @@ do_build_payload([{Key, Value} | Params], Payload) ->
       do_build_payload(Params, Payload)
   end;
 do_build_payload([], Payload) ->
-  {Payload}.
+  Payload.
 
 -spec send_payload(tuple(), binary(), non_neg_integer(),
     binary(), binary(), integer()) ->   ok | {error, term()}.
