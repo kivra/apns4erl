@@ -7,7 +7,7 @@
                   kernel,
                   stdlib,
                   ssl,
-                  jiffy
+                  jsx
                  ]},
   {mod, {apns, []}},
   {env, []},
